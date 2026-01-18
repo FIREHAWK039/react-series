@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
 
-  const [counter, setCounter]  = useState(15)
+  const [counter, setCounter]  = useState(15) //HOOKS H YEH
 
   //let counter = 15
 
