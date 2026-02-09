@@ -5,12 +5,14 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  
   return (
     <>
-      <h1 className='bg-blue-500 text-white p-4'>React router</h1>
+      <header />
+      <main />
+      <footer />
+      <home />
     </>
   )
 }
-
 export default App
