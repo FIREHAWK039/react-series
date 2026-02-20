@@ -12,8 +12,8 @@ function App() {
       <h1>
         reaact
       </h1>
-         <Profile />
          <Login />
+         <Profile />
     </UserContextProvider >
   )
 }
