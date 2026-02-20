@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import userContext from "../../Context/userContext";
+import userContext from "../Context/userContext";
 
 function Profile() {
     const {user} = useContext(userContext)
@@ -9,4 +9,4 @@ function Profile() {
     return <div>welcome {user.username}</div>
 }
 
-export default Profile;
+export default Profile
