@@ -4,4 +4,6 @@ import { createContext, useContext } from "react";
 export const ToDoContext = createContext{()}
 
 
-export const useToDoContext = () => {}
+export const useToDo = () => {
+    return  useContext(ToDoContext)
+}
